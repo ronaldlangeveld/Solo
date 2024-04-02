@@ -82,7 +82,7 @@
                 "group": "homepage"
             },
             "show_tag_list": {
-                "type": "toggle",
+                "type": "boolean",
                 "default": true,
                 "group": "homepage"
             },
