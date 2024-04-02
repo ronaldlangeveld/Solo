@@ -935,3 +935,23 @@ hr {
 .gh-copyright {
     font-size: 1.4rem;
 }
+
+.gh-taglist h2 {
+    font-size: 2.25em;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    margin-bottom: 12px;
+}
+
+.gh-tag {
+    padding: 2px 12px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--tag-color, var(--color-darker-gray));
+    text-decoration: none;
+    letter-spacing: -0.01em;
+    border: 2px solid var(--color-border);
+    border-radius: 24px;
+    /* make space on the side to the right */
+    margin-right: 8px;
+}

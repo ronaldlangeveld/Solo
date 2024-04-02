@@ -45,6 +45,25 @@
     </div>
 </section>
 
+{{!-- Taglist --}}
+{{#match @custom.show_tag_list "true"}}
+<section>
+    <div class="gh-outer">
+        <div class="gh-inner">
+            <h2 class="gh-taglist">{{@custom.tag_list_title}}</h2>
+                {{#get "tags" limit="all"}}
+                    {{#foreach tags}}
+                        <a href="{{url}}" class="gh-tag">
+                            <span>{{name}}</span>
+                        </a>
+                    {{/foreach}}
+                {{/get}}
+        </div>
+    </div>
+</section>
+{{/match}}
+
+
 <main class="gh-main gh-outer">
     <div class="gh-feed gh-inner">
         {{#foreach posts}}

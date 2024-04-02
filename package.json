@@ -1,5 +1,5 @@
 {
-    "name": "solo",
+    "name": "soloforked",
     "description": "A Ghost theme",
     "version": "1.0.0",
     "private": true,
@@ -79,6 +79,16 @@
                 "type": "select",
                 "options": ["Classic", "Typographic", "Parallax"],
                 "default": "Classic",
+                "group": "homepage"
+            },
+            "show_tag_list": {
+                "type": "toggle",
+                "default": true,
+                "group": "homepage"
+            },
+            "tag_list_title": {
+                "type": "text",
+                "default": "Browse by tag",
                 "group": "homepage"
             }
         }
